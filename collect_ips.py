@@ -29,6 +29,8 @@ with open('ip.txt', 'w') as file:
             elements = soup.find_all('tr')
         elif url == 'https://ip.164746.xyz':
             elements = soup.find_all('tr')
+        elif url == 'https://ipdb.030101.xyz/bestcfv4/':
+            elements = soup.find_all('tr')
         else:
             elements = soup.find_all('li')
         
