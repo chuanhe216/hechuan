@@ -5,7 +5,8 @@ import os
 
 # 目标URL列表
 urls = ['https://api.uouin.com/cloudflare.html', 
-        'https://ip.164746.xyz'
+        'https://ip.164746.xyz',
+        'https://ipdb.030101.xyz/bestcfv4/'
         ]
 
 # 正则表达式用于匹配IP地址
